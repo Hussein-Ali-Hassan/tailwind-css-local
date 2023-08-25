@@ -16,6 +16,6 @@ goTop.addEventListener("click", () => {
 
 window.onscroll = () => {
   if (window.scrollY > 500) {
-    goTop.classList.remove("hidden");
-  } else goTop.classList.add("hidden");
+    goTop.classList.remove("translate-x-full");
+  } else goTop.classList.add("translate-x-full");
 };
